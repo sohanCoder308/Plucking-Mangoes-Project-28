@@ -47,6 +47,11 @@ function draw() {
   rectMode(CENTER);
   background("lightblue");
 
+  fill(0);
+  stroke(0);
+  text("PRESS SPACE KEY TO GET ANOTHER CHANCE",10,20);	
+	
+	
   boy.display();
   
   tree.display();
